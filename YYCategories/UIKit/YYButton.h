@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
+@interface UIButton (Add)
+
+//倒计时
+-(void)countDownTime:(NSInteger)time ;
+
+@end
+
 IB_DESIGNABLE
 
 @interface YYButton : UIButton
