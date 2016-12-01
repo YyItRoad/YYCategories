@@ -406,4 +406,57 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface NSString (Validate)
+
+/**
+ 去空格
+ 
+ @return NSString
+ */
+- (NSString *)trimWhitespace;
+
+-(BOOL)isEmpty;
+/**
+ 是否为手机号码
+ 
+ @return Bool
+ */
+-(BOOL)isPhoneNum;
+/**
+ 是否为固定电话
+ 
+ @return Bool
+ */
+- (BOOL)isTelNum;
+//邮箱格式
+/**
+ 是否为邮箱
+ 
+ @return Bool
+ */
+-(BOOL)isEmail;
+
+/**
+ 是否为QQ
+ 
+ @return Bool
+ */
+-(BOOL)isQqNum;
+
+/**
+ 是否为车牌号
+ 
+ @return Bool
+ */
+-(BOOL)isCarPlate;
+
+/**
+ 是否为身份证号码
+ 
+ @return Bool
+ */
+-(BOOL)isIdNumber;
+
+@end
+
 NS_ASSUME_NONNULL_END

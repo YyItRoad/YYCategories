@@ -21,6 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		65B6397C1DF08A13000F4E52 /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B6397A1DF08A13000F4E52 /* YYTextView.h */; };
+		65B6397D1DF08A13000F4E52 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B6397B1DF08A13000F4E52 /* YYTextView.m */; };
+		65B639801DF08ABC000F4E52 /* YYButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B6397E1DF08ABC000F4E52 /* YYButton.h */; };
+		65B639811DF08ABC000F4E52 /* YYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B6397F1DF08ABC000F4E52 /* YYButton.m */; };
 		D946DE991BD14332006B77F7 /* NSArray+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D946DE591BD14332006B77F7 /* NSArray+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D946DE9A1BD14332006B77F7 /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE5A1BD14332006B77F7 /* NSArray+YYAdd.m */; };
 		D946DE9B1BD14332006B77F7 /* NSBundle+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D946DE5B1BD14332006B77F7 /* NSBundle+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,6 +98,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65B6397A1DF08A13000F4E52 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		65B6397B1DF08A13000F4E52 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		65B6397E1DF08ABC000F4E52 /* YYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYButton.h; sourceTree = "<group>"; };
+		65B6397F1DF08ABC000F4E52 /* YYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYButton.m; sourceTree = "<group>"; };
 		D946DE4A1BD142CD006B77F7 /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D946DE551BD142F2006B77F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D946DE591BD14332006B77F7 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYAdd.h"; sourceTree = "<group>"; };
@@ -294,6 +302,10 @@
 				D946DE881BD14332006B77F7 /* UIFont+YYAdd.m */,
 				D946DE7F1BD14332006B77F7 /* UIBezierPath+YYAdd.h */,
 				D946DE801BD14332006B77F7 /* UIBezierPath+YYAdd.m */,
+				65B6397A1DF08A13000F4E52 /* YYTextView.h */,
+				65B6397B1DF08A13000F4E52 /* YYTextView.m */,
+				65B6397E1DF08ABC000F4E52 /* YYButton.h */,
+				65B6397F1DF08ABC000F4E52 /* YYButton.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -343,11 +355,13 @@
 				D946DECF1BD14332006B77F7 /* UITableView+YYAdd.h in Headers */,
 				D946DED11BD14332006B77F7 /* UITextField+YYAdd.h in Headers */,
 				D946DEB51BD14332006B77F7 /* CALayer+YYAdd.h in Headers */,
+				65B639801DF08ABC000F4E52 /* YYButton.h in Headers */,
 				D946DE9B1BD14332006B77F7 /* NSBundle+YYAdd.h in Headers */,
 				D946DEAB1BD14332006B77F7 /* NSObject+YYAddForARC.h in Headers */,
 				D946DEA71BD14332006B77F7 /* NSNumber+YYAdd.h in Headers */,
 				D946DEAD1BD14332006B77F7 /* NSObject+YYAddForKVO.h in Headers */,
 				D946DEB71BD14332006B77F7 /* YYCGUtilities.h in Headers */,
+				65B6397C1DF08A13000F4E52 /* YYTextView.h in Headers */,
 				D946DEC71BD14332006B77F7 /* UIGestureRecognizer+YYAdd.h in Headers */,
 				D946DECB1BD14332006B77F7 /* UIScreen+YYAdd.h in Headers */,
 				D946DEBB1BD14332006B77F7 /* UIBarButtonItem+YYAdd.h in Headers */,
@@ -462,8 +476,10 @@
 				D946DEA41BD14332006B77F7 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				D946DEB01BD14332006B77F7 /* NSString+YYAdd.m in Sources */,
 				D946DEB21BD14332006B77F7 /* NSThread+YYAdd.m in Sources */,
+				65B639811DF08ABC000F4E52 /* YYButton.m in Sources */,
 				D946DED01BD14332006B77F7 /* UITableView+YYAdd.m in Sources */,
 				D946DEB61BD14332006B77F7 /* CALayer+YYAdd.m in Sources */,
+				65B6397D1DF08A13000F4E52 /* YYTextView.m in Sources */,
 				D946DEA81BD14332006B77F7 /* NSNumber+YYAdd.m in Sources */,
 				D946DE9A1BD14332006B77F7 /* NSArray+YYAdd.m in Sources */,
 				D946DEC81BD14332006B77F7 /* UIGestureRecognizer+YYAdd.m in Sources */,
