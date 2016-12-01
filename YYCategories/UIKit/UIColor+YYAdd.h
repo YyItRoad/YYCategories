@@ -353,6 +353,13 @@ extern void YY_HSL2HSB(CGFloat h, CGFloat s, CGFloat l,
  */
 @property (nullable, nonatomic, readonly) NSString *colorSpaceString;
 
+
+/**
+ 返回随机颜色
+ @return 任意颜色
+ */
++ (UIColor *)randomColor;
+
 @end
 
 NS_ASSUME_NONNULL_END
