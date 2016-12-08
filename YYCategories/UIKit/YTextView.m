@@ -1,17 +1,17 @@
 //
-//  YYTextView.m
+//  YTextView.m
 //  YYCategories
 //
-//  Created by 杨洋 on 2/12/16.
+//  Created by 杨洋 on 8/12/16.
 //  Copyright © 2016 ibireme. All rights reserved.
 //
 
-#import "YYTextView.h"
+#import "YTextView.h"
 
 #define HAS_TEXT_CONTAINER [self respondsToSelector:@selector(textContainer)]
 #define HAS_TEXT_CONTAINER_INSETS(x) [(x) respondsToSelector:@selector(textContainerInset)]
 
-@interface YYTextView ()
+@interface YTextView ()
 
 @property (strong, nonatomic) UITextView *_placeholderTextView;
 
@@ -28,7 +28,7 @@ static NSString * const kTextContainerInsetKey = @"textContainerInset";
 static NSString * const kTextAlignmentKey = @"textAlignment";
 
 
-@implementation YYTextView
+@implementation YTextView
 
 
 - (instancetype)initWithCoder:(NSCoder *)coder
