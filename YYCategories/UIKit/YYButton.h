@@ -16,8 +16,6 @@
 
 @end
 
-IB_DESIGNABLE
-
 @interface YYButton : UIButton
 
 @property (nonatomic,strong) UILabel *badgeLabel;
