@@ -236,4 +236,23 @@ YYSYNTH_DYNAMIC_PROPERTY_OBJECT(networkActivityInfo, setNetworkActivityInfo, RET
 #pragma clang diagnostic pop
 }
 
++ (BOOL)isFirstLaunch {
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"_first_launch_"]) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"_first_launch_"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        return YES;
+    }
+    return NO;
+}
+
++ (BOOL)isFirstLaunchForVersion {
+    NSString *versionKey = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:versionKey]) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:versionKey];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        return YES;
+    }
+    return NO;
+}
+
 @end

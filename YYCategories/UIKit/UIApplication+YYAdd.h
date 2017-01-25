@@ -80,6 +80,17 @@ NS_ASSUME_NONNULL_BEGIN
 /// Same as sharedApplication, but returns nil in App Extension.
 + (nullable UIApplication *)sharedExtensionApplication;
 
+
+/**
+ 是否为第一次启动
+ */
++ (BOOL)isFirstLaunch;
+
+/**
+ 是否为该版本第一次启动
+ */
++ (BOOL)isFirstLaunchForVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END
