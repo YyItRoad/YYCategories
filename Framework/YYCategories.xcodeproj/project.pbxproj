@@ -23,8 +23,12 @@
 /* Begin PBXBuildFile section */
 		6521BB3C1DF8FDF2003DF28D /* YTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6521BB3A1DF8FDF2003DF28D /* YTextView.h */; };
 		6521BB3D1DF8FDF2003DF28D /* YTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6521BB3B1DF8FDF2003DF28D /* YTextView.m */; };
+		6584157A1E79ABB900613E50 /* UIAlertView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 658415781E79ABB900613E50 /* UIAlertView+YYAdd.h */; };
+		6584157B1E79ABB900613E50 /* UIAlertView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 658415791E79ABB900613E50 /* UIAlertView+YYAdd.m */; };
 		65B639801DF08ABC000F4E52 /* YYButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B6397E1DF08ABC000F4E52 /* YYButton.h */; };
 		65B639811DF08ABC000F4E52 /* YYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B6397F1DF08ABC000F4E52 /* YYButton.m */; };
+		65C5D2F11E7E295200E5C0BD /* UIImageView+YAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C5D2EF1E7E295200E5C0BD /* UIImageView+YAdd.h */; };
+		65C5D2F21E7E295200E5C0BD /* UIImageView+YAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5D2F01E7E295200E5C0BD /* UIImageView+YAdd.m */; };
 		D946DE991BD14332006B77F7 /* NSArray+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D946DE591BD14332006B77F7 /* NSArray+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D946DE9A1BD14332006B77F7 /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D946DE5A1BD14332006B77F7 /* NSArray+YYAdd.m */; };
 		D946DE9B1BD14332006B77F7 /* NSBundle+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D946DE5B1BD14332006B77F7 /* NSBundle+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,8 +104,12 @@
 /* Begin PBXFileReference section */
 		6521BB3A1DF8FDF2003DF28D /* YTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTextView.h; sourceTree = "<group>"; };
 		6521BB3B1DF8FDF2003DF28D /* YTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTextView.m; sourceTree = "<group>"; };
+		658415781E79ABB900613E50 /* UIAlertView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+YYAdd.h"; sourceTree = "<group>"; };
+		658415791E79ABB900613E50 /* UIAlertView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+YYAdd.m"; sourceTree = "<group>"; };
 		65B6397E1DF08ABC000F4E52 /* YYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYButton.h; sourceTree = "<group>"; };
 		65B6397F1DF08ABC000F4E52 /* YYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYButton.m; sourceTree = "<group>"; };
+		65C5D2EF1E7E295200E5C0BD /* UIImageView+YAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YAdd.h"; sourceTree = "<group>"; };
+		65C5D2F01E7E295200E5C0BD /* UIImageView+YAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YAdd.m"; sourceTree = "<group>"; };
 		D946DE4A1BD142CD006B77F7 /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D946DE551BD142F2006B77F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D946DE591BD14332006B77F7 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYAdd.h"; sourceTree = "<group>"; };
@@ -288,6 +296,10 @@
 				D946DE961BD14332006B77F7 /* UIView+YYAdd.m */,
 				D946DE8F1BD14332006B77F7 /* UIScrollView+YYAdd.h */,
 				D946DE901BD14332006B77F7 /* UIScrollView+YYAdd.m */,
+				658415781E79ABB900613E50 /* UIAlertView+YYAdd.h */,
+				658415791E79ABB900613E50 /* UIAlertView+YYAdd.m */,
+				65C5D2EF1E7E295200E5C0BD /* UIImageView+YAdd.h */,
+				65C5D2F01E7E295200E5C0BD /* UIImageView+YAdd.m */,
 				D946DE911BD14332006B77F7 /* UITableView+YYAdd.h */,
 				D946DE921BD14332006B77F7 /* UITableView+YYAdd.m */,
 				D946DE931BD14332006B77F7 /* UITextField+YYAdd.h */,
@@ -346,6 +358,7 @@
 				D946DEC91BD14332006B77F7 /* UIImage+YYAdd.h in Headers */,
 				D946DEC31BD14332006B77F7 /* UIDevice+YYAdd.h in Headers */,
 				D946DEAF1BD14332006B77F7 /* NSString+YYAdd.h in Headers */,
+				65C5D2F11E7E295200E5C0BD /* UIImageView+YAdd.h in Headers */,
 				D946DED51BD14332006B77F7 /* YYCategories.h in Headers */,
 				D946DED61BD14332006B77F7 /* YYCategoriesMacro.h in Headers */,
 				D946DED31BD14332006B77F7 /* UIView+YYAdd.h in Headers */,
@@ -359,6 +372,7 @@
 				D946DE9B1BD14332006B77F7 /* NSBundle+YYAdd.h in Headers */,
 				D946DEAB1BD14332006B77F7 /* NSObject+YYAddForARC.h in Headers */,
 				D946DEA71BD14332006B77F7 /* NSNumber+YYAdd.h in Headers */,
+				6584157A1E79ABB900613E50 /* UIAlertView+YYAdd.h in Headers */,
 				D946DEAD1BD14332006B77F7 /* NSObject+YYAddForKVO.h in Headers */,
 				D946DEB71BD14332006B77F7 /* YYCGUtilities.h in Headers */,
 				6521BB3C1DF8FDF2003DF28D /* YTextView.h in Headers */,
@@ -459,6 +473,7 @@
 			files = (
 				D946DEBC1BD14332006B77F7 /* UIBarButtonItem+YYAdd.m in Sources */,
 				D946DEC61BD14332006B77F7 /* UIFont+YYAdd.m in Sources */,
+				65C5D2F21E7E295200E5C0BD /* UIImageView+YAdd.m in Sources */,
 				D946DECE1BD14332006B77F7 /* UIScrollView+YYAdd.m in Sources */,
 				D946DE9C1BD14332006B77F7 /* NSBundle+YYAdd.m in Sources */,
 				D946DECC1BD14332006B77F7 /* UIScreen+YYAdd.m in Sources */,
@@ -470,6 +485,7 @@
 				D946DEC21BD14332006B77F7 /* UIControl+YYAdd.m in Sources */,
 				D946DEB81BD14332006B77F7 /* YYCGUtilities.m in Sources */,
 				D946DEA21BD14332006B77F7 /* NSDictionary+YYAdd.m in Sources */,
+				6584157B1E79ABB900613E50 /* UIAlertView+YYAdd.m in Sources */,
 				D946DEC01BD14332006B77F7 /* UIColor+YYAdd.m in Sources */,
 				D946DEAC1BD14332006B77F7 /* NSObject+YYAddForARC.m in Sources */,
 				D946DEB41BD14332006B77F7 /* NSTimer+YYAdd.m in Sources */,
